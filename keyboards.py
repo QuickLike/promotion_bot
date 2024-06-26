@@ -7,7 +7,8 @@ def start_keyboard():
     follow = InlineKeyboardButton(text='Подписаться', callback_data='follow', url='https://t.me/+c7FLoAZM1To0YTYy')
     markup = InlineKeyboardMarkup(
         inline_keyboard=[
-            [check], [buy], [follow]]
+            [follow], [check], [buy]
+        ]
     )
     return markup
 
